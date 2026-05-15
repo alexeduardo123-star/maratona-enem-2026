@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Alex Eduardo\\\\Desktop\\\\Claude Projects\\\\maratona-enem\" -Recurse -Force)",
+      "Bash(Select-Object FullName)",
+      "Bash(ConvertTo-Csv -NoTypeInformation)",
+      "Bash(Out-String)",
+      "Bash(npm install *)",
+      "Bash(npm list *)",
+      "Bash(npm run *)",
+      "Bash(nVITE_ANTHROPIC_API_KEY=sua_chave_aqui\" > \"C:/Users/Alex Eduardo/Desktop/Claude Projects/maratona-enem/.env.example\")",
+      "Bash(echo \"# Chave da API da Anthropic — obtenha em https://console.anthropic.com`nVITE_ANTHROPIC_API_KEY=sua_chave_aqui\" > \"C:/Users/Alex Eduardo/Desktop/Claude Projects/maratona-enem/.env.example\")",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(git check-ignore *)",
+      "Bash(git add *)"
+    ]
+  }
+}
